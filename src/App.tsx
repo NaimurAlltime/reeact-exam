@@ -1,4 +1,5 @@
 import './App.css'
+import { CustomLogo } from './components/Logo/CustomLogo'
 import DataTable from './components/Table/DataTable'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
      <DataTable />
+     <CustomLogo />
     </>
   )
 }
