@@ -11,7 +11,9 @@
   
   .searchInput {
     background-color: transparent;
-    border: 2px solid #ff0000;
+    border: 2px solid;
+    border-image: linear-gradient(90deg, #3b0995 0%, #ff7f50 50%, #3b0995 100%);
+    border-image-slice: 1;
     color: #fff;
     padding: 8px 12px;
     width: 200px;
