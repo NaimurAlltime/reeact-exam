@@ -150,7 +150,7 @@ export function CustomLogo() {
         </div>
         <div className="button-container">
           <button type="button" onClick={downloadFinalImage} className="submit-button">
-            Download Final Image
+            Submit Button
           </button>
         </div>
       </form>
